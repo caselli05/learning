@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linha-topo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1rem;
+    height: 5vh;
+    background-color: #2D848A;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+}
+
+.imagem{
+    width: 50%;
+    background-color: rgb(161, 161, 161);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem img{
+    height: 95vh;
+    width: 152vw;
+    padding: 0 15rem 0 0;
+}
+
+.imagem img:hover{
+    width: 100vw;
+}
+
+.cadastro{
+    width: 50%;
+    background-color: rgb(210, 223, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.fcadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.caixa1{
+    margin: 4rem 10rem 2rem 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #FFFBFC;
+    border-color: #FFFBFC;
+}
+.caixa2{
+    margin: 1rem 10rem 2rem 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #FFFBFC;
+    border-color: #FFFBFC;
+}
+.caixa3{
+    margin: 1rem 10rem 2rem 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #FFFBFC;
+    border-color: #FFFBFC;
+}
+.caixa4{
+    margin: 1rem 10rem 2rem 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #FFFBFC;
+    border-color: #FFFBFC;
+}
+.caixa5{
+    margin: 1rem 10rem 4rem 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #FFFBFC;
+    border-color: #FFFBFC;
+    box-shadow: none;
+}
+
+.botao{
+    margin: 1rem 20rem 3rem 20rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    background-color: #2d848a;
+    font-size: large;
+}
+
+h2{
+    font-size: 3rem;
+}
